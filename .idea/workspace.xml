@@ -40,14 +40,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BuscaVoos.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BuscaVoos.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/com/uff/servlet/BuscaVoos.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="555">
               <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,8 +54,10 @@
         <entry file="file://$PROJECT_DIR$/src/br/com/uff/servlet/Home.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,7 +67,21 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#584#585#0" expanded="false" />
+                <element signature="e#609#610#0" expanded="false" />
+                <element signature="e#646#647#0" expanded="false" />
+                <element signature="e#674#675#0" expanded="false" />
+                <element signature="e#714#715#0" expanded="false" />
+                <element signature="e#750#751#0" expanded="false" />
+                <element signature="e#808#809#0" expanded="false" />
+                <element signature="e#858#859#0" expanded="false" />
+                <element signature="e#889#890#0" expanded="false" />
+                <element signature="e#916#917#0" expanded="false" />
+                <element signature="e#956#957#0" expanded="false" />
+                <element signature="e#988#989#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,27 +98,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sistema_aeroporto_dw.Voo" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/e2bf7534/abd6ab69-5bc1-401e-950f-54afe2e4e6bf/sistema_aeroporto_dw.Voo">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PopularBanco.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/uff/util/PopularBanco.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="3360">
               <caret line="230" column="53" lean-forward="false" selection-start-line="230" selection-start-column="53" selection-end-line="230" selection-end-column="53" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,8 +116,21 @@
             <state relative-caret-position="315">
               <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="15" />
               <folding>
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#561#562#0" expanded="false" />
+                <element signature="e#591#592#0" expanded="false" />
+                <element signature="e#621#622#0" expanded="false" />
+                <element signature="e#646#647#0" expanded="false" />
+                <element signature="e#683#684#0" expanded="false" />
+                <element signature="e#711#712#0" expanded="false" />
+                <element signature="e#762#763#0" expanded="false" />
+                <element signature="e#801#802#0" expanded="false" />
+                <element signature="e#978#979#0" expanded="false" />
+                <element signature="e#1034#1035#0" expanded="false" />
+                <element signature="e#1067#1068#0" expanded="false" />
+                <element signature="e#1096#1097#0" expanded="false" />
+                <element signature="e#1140#1141#0" expanded="false" />
+                <element signature="e#1176#1177#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -128,108 +142,52 @@
             <state relative-caret-position="165">
               <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="23" />
               <folding>
-                <element signature="e#917#918#0" expanded="true" />
-                <element signature="e#945#946#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#986#987#0" expanded="false" />
+                <element signature="e#1020#1021#0" expanded="false" />
+                <element signature="e#1059#1060#0" expanded="false" />
+                <element signature="e#1094#1095#0" expanded="false" />
+                <element signature="e#1150#1151#0" expanded="false" />
+                <element signature="e#1198#1199#0" expanded="false" />
+                <element signature="e#1325#1326#0" expanded="false" />
+                <element signature="e#1371#1372#0" expanded="false" />
+                <element signature="e#1403#1404#0" expanded="false" />
+                <element signature="e#1431#1432#0" expanded="false" />
+                <element signature="e#1473#1474#0" expanded="false" />
+                <element signature="e#1507#1508#0" expanded="false" />
+                <element signature="e#1536#1537#0" expanded="false" />
+                <element signature="e#1563#1564#0" expanded="false" />
+                <element signature="e#1601#1602#0" expanded="false" />
+                <element signature="e#1633#1634#0" expanded="false" />
+                <element signature="e#1663#1664#0" expanded="false" />
+                <element signature="e#1688#1689#0" expanded="false" />
+                <element signature="e#1725#1726#0" expanded="false" />
+                <element signature="e#1753#1754#0" expanded="false" />
+                <element signature="e#1784#1785#0" expanded="false" />
+                <element signature="e#1814#1815#0" expanded="false" />
+                <element signature="e#1857#1858#0" expanded="false" />
+                <element signature="e#1895#1896#0" expanded="false" />
+                <element signature="e#1929#1930#0" expanded="false" />
+                <element signature="e#1962#1963#0" expanded="false" />
+                <element signature="e#2011#2012#0" expanded="false" />
+                <element signature="e#2055#2056#0" expanded="false" />
+                <element signature="e#2094#2095#0" expanded="false" />
+                <element signature="e#2126#2127#0" expanded="false" />
+                <element signature="e#2179#2180#0" expanded="false" />
+                <element signature="e#2221#2222#0" expanded="false" />
+                <element signature="e#2268#2269#0" expanded="false" />
+                <element signature="e#2303#2304#0" expanded="false" />
+                <element signature="e#2367#2368#0" expanded="false" />
+                <element signature="e#2415#2416#0" expanded="false" />
+                <element signature="e#2464#2465#0" expanded="false" />
+                <element signature="e#2501#2502#0" expanded="false" />
+                <element signature="e#2569#2570#0" expanded="false" />
+                <element signature="e#2621#2622#0" expanded="false" />
+                <element signature="e#2683#2684#0" expanded="false" />
+                <element signature="e#2738#2739#0" expanded="false" />
+                <element signature="e#2803#2804#0" expanded="false" />
+                <element signature="e#2860#2861#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Persistence/JavaeeElement:/e2bf7534/sistema_aeroporto_dw/trabalho-dw/jpa/JPA/PersistenceModel" pinned="false" current-in-tab="true">
-        <entry file="uml://Persistence/JavaeeElement:/e2bf7534/sistema_aeroporto_dw/trabalho-dw/jpa/JPA/PersistenceModel">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>Persistence</ID>
-              <OriginalElement>JavaeeElement:/e2bf7534/sistema_aeroporto_dw/trabalho-dw/jpa/JPA/PersistenceModel</OriginalElement>
-              <nodes>
-                <node x="273.45833333333337" y="760.0">Poltrona#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Poltrona.java</node>
-                <node x="0.0" y="226.0">Aeroporto#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Aeroporto.java</node>
-                <node x="21.25" y="380.0">Voo#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Voo.java</node>
-                <node x="327.81250000000006" y="250.0">Passagem#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Passagem.java</node>
-                <node x="546.4583333333334" y="0.0">Usuario#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Usuario.java</node>
-                <node x="86.43750000000006" y="630.0">Aviao#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Aviao.java</node>
-                <node x="286.25000000000006" y="452.0">Venda#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Venda.java</node>
-                <node x="314.95833333333337" y="914.0">Classe#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Classe.java</node>
-                <node x="272.75000000000006" y="0.0">Passageiro#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Passageiro.java</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="Passagem#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Passagem.java" target="Poltrona#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Poltrona.java">
-                  <point x="46.87499999999999" y="28.0" />
-                  <point x="437.1875" y="355.0" />
-                  <point x="432.75" y="355.0" />
-                  <point x="432.75" y="735.0" />
-                  <point x="463.45833333333337" y="735.0" />
-                  <point x="76.0" y="-52.0" />
-                </edge>
-                <edge source="Venda#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Venda.java" target="Passagem#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Passagem.java">
-                  <point x="0.0" y="-28.0" />
-                  <point x="348.75000000000006" y="355.0" />
-                  <point x="374.68750000000006" y="355.0" />
-                  <point x="-15.625" y="28.0" />
-                </edge>
-                <edge source="Voo#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Voo.java" target="Aeroporto#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Aeroporto.java">
-                  <point x="-61.25" y="-100.0" />
-                  <point x="0.0" y="52.0" />
-                </edge>
-                <edge source="Voo#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Voo.java" target="Passagem#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Passagem.java">
-                  <point x="61.25" y="-100.0" />
-                  <point x="205.0" y="355.0" />
-                  <point x="343.43750000000006" y="355.0" />
-                  <point x="-46.875" y="28.0" />
-                </edge>
-                <edge source="Voo#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Voo.java" target="Aviao#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Aviao.java">
-                  <point x="61.25" y="100.0" />
-                  <point x="205.0" y="605.0" />
-                  <point x="195.18750000000006" y="605.0" />
-                  <point x="36.25" y="-40.0" />
-                </edge>
-                <edge source="Aviao#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Aviao.java" target="Voo#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Voo.java">
-                  <point x="-36.25" y="-40.0" />
-                  <point x="122.68750000000006" y="605.0" />
-                  <point x="82.5" y="605.0" />
-                  <point x="-61.25" y="100.0" />
-                </edge>
-                <edge source="Passageiro#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Passageiro.java" target="Passagem#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Passagem.java">
-                  <point x="56.24999999999999" y="88.0" />
-                  <point x="441.5" y="201.0" />
-                  <point x="421.5625" y="201.0" />
-                  <point x="31.249999999999993" y="-28.0" />
-                </edge>
-                <edge source="Poltrona#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Poltrona.java" target="Aviao#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Aviao.java">
-                  <point x="-76.0" y="-52.0" />
-                  <point x="311.45833333333337" y="735.0" />
-                  <point x="158.93750000000006" y="735.0" />
-                  <point x="0.0" y="40.0" />
-                </edge>
-                <edge source="Passagem#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Passagem.java" target="Passageiro#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Passageiro.java">
-                  <point x="-31.25" y="-28.0" />
-                  <point x="359.06250000000006" y="201.0" />
-                  <point x="329.00000000000006" y="201.0" />
-                  <point x="-56.25" y="88.0" />
-                </edge>
-                <edge source="Poltrona#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Poltrona.java" target="Passagem#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Passagem.java">
-                  <point x="0.0" y="-52.0" />
-                  <point x="387.45833333333337" y="735.0" />
-                  <point x="421.75" y="735.0" />
-                  <point x="421.75" y="355.0" />
-                  <point x="405.9375" y="355.0" />
-                  <point x="15.624999999999993" y="28.0" />
-                </edge>
-                <edge source="Classe#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Classe.java" target="Poltrona#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Poltrona.java">
-                  <point x="0.0" y="-40.0" />
-                  <point x="0.0" y="52.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.8905325443786982" x="366.5913621262458" y="537.0" />
-              <SelectedNodes>
-                <node>Passageiro#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Passageiro.java</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Properties</Category>
-                <Category>Embeddables</Category>
-                <Category>Superclasses</Category>
-              </Categories>
             </state>
           </provider>
         </entry>
@@ -312,6 +270,9 @@
       <replace>poltrona9</replace>
       <replace>poltrona10</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -434,7 +395,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -583,7 +544,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1172,11 +1133,12 @@
       <workItem from="1481317377029" duration="7281000" />
       <workItem from="1481335842057" duration="333000" />
       <workItem from="1481382025231" duration="750000" />
+      <workItem from="1481389982114" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175291000" />
+    <option name="totallyTimeSpent" value="175315000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1210,12 +1172,11 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.321875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24386339" sideWeight="0.52708334" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24386339" sideWeight="0.47291666" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24653149" sideWeight="0.53131527" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24653149" sideWeight="0.46868476" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819384" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1230,6 +1191,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819384" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1469,102 +1431,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/e2bf7534/abd6ab69-5bc1-401e-950f-54afe2e4e6bf/sistema_aeroporto_dw.Aviao">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e2bf7534/abd6ab69-5bc1-401e-950f-54afe2e4e6bf/sistema_aeroporto_dw.Classe">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e2bf7534/abd6ab69-5bc1-401e-950f-54afe2e4e6bf/sistema_aeroporto_dw.Passageiro">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e2bf7534/abd6ab69-5bc1-401e-950f-54afe2e4e6bf/sistema_aeroporto_dw.Poltrona">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e2bf7534/abd6ab69-5bc1-401e-950f-54afe2e4e6bf/sistema_aeroporto_dw.Usuario">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e2bf7534/abd6ab69-5bc1-401e-950f-54afe2e4e6bf/sistema_aeroporto_dw.Passagem">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e2bf7534/abd6ab69-5bc1-401e-950f-54afe2e4e6bf/sistema_aeroporto_dw.Venda">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e2bf7534/abd6ab69-5bc1-401e-950f-54afe2e4e6bf/sistema_aeroporto_dw.Aeroporto">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/e2bf7534/abd6ab69-5bc1-401e-950f-54afe2e4e6bf/sistema_aeroporto_dw.Aviao" />
+    <entry file="dbDummy://dbtable:/e2bf7534/abd6ab69-5bc1-401e-950f-54afe2e4e6bf/sistema_aeroporto_dw.Classe" />
+    <entry file="dbDummy://dbtable:/e2bf7534/abd6ab69-5bc1-401e-950f-54afe2e4e6bf/sistema_aeroporto_dw.Passageiro" />
+    <entry file="dbDummy://dbtable:/e2bf7534/abd6ab69-5bc1-401e-950f-54afe2e4e6bf/sistema_aeroporto_dw.Poltrona" />
+    <entry file="dbDummy://dbtable:/e2bf7534/abd6ab69-5bc1-401e-950f-54afe2e4e6bf/sistema_aeroporto_dw.Usuario" />
+    <entry file="dbDummy://dbtable:/e2bf7534/abd6ab69-5bc1-401e-950f-54afe2e4e6bf/sistema_aeroporto_dw.Passagem" />
+    <entry file="dbDummy://dbtable:/e2bf7534/abd6ab69-5bc1-401e-950f-54afe2e4e6bf/sistema_aeroporto_dw.Venda" />
+    <entry file="dbDummy://dbtable:/e2bf7534/abd6ab69-5bc1-401e-950f-54afe2e4e6bf/sistema_aeroporto_dw.Aeroporto" />
     <entry file="jar://$PROJECT_DIR$/lib/hibernate-entitymanager-4.3.5.Final.jar!/org/hibernate/jpa/internal/EntityManagerImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1594,19 +1468,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/e2bf7534/abd6ab69-5bc1-401e-950f-54afe2e4e6bf/sistema_aeroporto_dw.Voo">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="dbDummy://dbtable:/e2bf7534/abd6ab69-5bc1-401e-950f-54afe2e4e6bf/sistema_aeroporto_dw.Voo" />
     <entry file="file://$PROJECT_DIR$/src/br/com/uff/service/Dao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1621,9 +1483,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1653,12 +1513,13 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.8697674418604651" x="527.5" y="453.0" />
+          <settings layout="Hierarchic Group" zoom="0.8697674418604651" x="528.0" y="453.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Key columns</Category>
             <Category>Columns</Category>
+            <Category>Key columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
@@ -1688,8 +1549,10 @@
     <entry file="file://$PROJECT_DIR$/src/br/com/uff/servlet/Home.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1697,15 +1560,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#584#585#0" expanded="false" />
+            <element signature="e#609#610#0" expanded="false" />
+            <element signature="e#646#647#0" expanded="false" />
+            <element signature="e#674#675#0" expanded="false" />
+            <element signature="e#714#715#0" expanded="false" />
+            <element signature="e#750#751#0" expanded="false" />
+            <element signature="e#808#809#0" expanded="false" />
+            <element signature="e#858#859#0" expanded="false" />
+            <element signature="e#889#890#0" expanded="false" />
+            <element signature="e#916#917#0" expanded="false" />
+            <element signature="e#956#957#0" expanded="false" />
+            <element signature="e#988#989#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/uff/util/PopularBanco.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="3360">
           <caret line="230" column="53" lean-forward="false" selection-start-line="230" selection-start-column="53" selection-end-line="230" selection-end-column="53" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1714,8 +1593,21 @@
         <state relative-caret-position="315">
           <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="15" />
           <folding>
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#561#562#0" expanded="false" />
+            <element signature="e#591#592#0" expanded="false" />
+            <element signature="e#621#622#0" expanded="false" />
+            <element signature="e#646#647#0" expanded="false" />
+            <element signature="e#683#684#0" expanded="false" />
+            <element signature="e#711#712#0" expanded="false" />
+            <element signature="e#762#763#0" expanded="false" />
+            <element signature="e#801#802#0" expanded="false" />
+            <element signature="e#978#979#0" expanded="false" />
+            <element signature="e#1034#1035#0" expanded="false" />
+            <element signature="e#1067#1068#0" expanded="false" />
+            <element signature="e#1096#1097#0" expanded="false" />
+            <element signature="e#1140#1141#0" expanded="false" />
+            <element signature="e#1176#1177#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1725,8 +1617,51 @@
         <state relative-caret-position="165">
           <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="23" />
           <folding>
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#986#987#0" expanded="false" />
+            <element signature="e#1020#1021#0" expanded="false" />
+            <element signature="e#1059#1060#0" expanded="false" />
+            <element signature="e#1094#1095#0" expanded="false" />
+            <element signature="e#1150#1151#0" expanded="false" />
+            <element signature="e#1198#1199#0" expanded="false" />
+            <element signature="e#1325#1326#0" expanded="false" />
+            <element signature="e#1371#1372#0" expanded="false" />
+            <element signature="e#1403#1404#0" expanded="false" />
+            <element signature="e#1431#1432#0" expanded="false" />
+            <element signature="e#1473#1474#0" expanded="false" />
+            <element signature="e#1507#1508#0" expanded="false" />
+            <element signature="e#1536#1537#0" expanded="false" />
+            <element signature="e#1563#1564#0" expanded="false" />
+            <element signature="e#1601#1602#0" expanded="false" />
+            <element signature="e#1633#1634#0" expanded="false" />
+            <element signature="e#1663#1664#0" expanded="false" />
+            <element signature="e#1688#1689#0" expanded="false" />
+            <element signature="e#1725#1726#0" expanded="false" />
+            <element signature="e#1753#1754#0" expanded="false" />
+            <element signature="e#1784#1785#0" expanded="false" />
+            <element signature="e#1814#1815#0" expanded="false" />
+            <element signature="e#1857#1858#0" expanded="false" />
+            <element signature="e#1895#1896#0" expanded="false" />
+            <element signature="e#1929#1930#0" expanded="false" />
+            <element signature="e#1962#1963#0" expanded="false" />
+            <element signature="e#2011#2012#0" expanded="false" />
+            <element signature="e#2055#2056#0" expanded="false" />
+            <element signature="e#2094#2095#0" expanded="false" />
+            <element signature="e#2126#2127#0" expanded="false" />
+            <element signature="e#2179#2180#0" expanded="false" />
+            <element signature="e#2221#2222#0" expanded="false" />
+            <element signature="e#2268#2269#0" expanded="false" />
+            <element signature="e#2303#2304#0" expanded="false" />
+            <element signature="e#2367#2368#0" expanded="false" />
+            <element signature="e#2415#2416#0" expanded="false" />
+            <element signature="e#2464#2465#0" expanded="false" />
+            <element signature="e#2501#2502#0" expanded="false" />
+            <element signature="e#2569#2570#0" expanded="false" />
+            <element signature="e#2621#2622#0" expanded="false" />
+            <element signature="e#2683#2684#0" expanded="false" />
+            <element signature="e#2738#2739#0" expanded="false" />
+            <element signature="e#2803#2804#0" expanded="false" />
+            <element signature="e#2860#2861#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1816,15 +1751,16 @@
               <point x="0.0" y="52.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.8905325443786982" x="366.5913621262458" y="537.0" />
+          <settings layout="Hierarchic Group" zoom="0.8905325443786982" x="367.0" y="537.0" />
           <SelectedNodes>
             <node>Passageiro#file:///home/pedro/Desenvolvimento/projetos-java/local/aeroporto-dw-atual/trabalho-dw/src/br/com/uff/model/Passageiro.java</node>
           </SelectedNodes>
           <Categories>
-            <Category>Properties</Category>
             <Category>Embeddables</Category>
+            <Category>Properties</Category>
             <Category>Superclasses</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
