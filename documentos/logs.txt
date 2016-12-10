@@ -1,0 +1,16 @@
+- Problema para reiniciar servidor sem ter que encerrar a conexão antes: WARNING: The web application [] registered the JDBC driver [com.mysql.jdbc.Driver]
+                                                                            but failed to unregister it when the web application was stopped.
+                                                                            To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+
+- Acabei tendo que remover o JAR mysql-conector do artefato da aplicação. Estava dando um erro dizendo que o arquivo estava vazio... isso foi depois de eu colocar o escopo dele como provided.
+
+- Também tive que setar o JAR do JSTL 1.2 na mão para a JSP reconhecer a taglib JSTL.
+
+- IMPORTANTE: NÃO RODAR DUAS VEZES A CLASSE PopulaBanco, a tabela terá dados duplicados e poderá ficar corrompida! Caso aconteça a corrupção dos dados, só é possivel apagar a tabela reiniciando o computador.
+
+-
+
+-
+
+-
+

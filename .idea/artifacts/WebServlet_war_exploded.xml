@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WebServlet:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WebServlet" />
+          <element id="module-output" name="trabalho-dw" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jstl-1.2.jar" />
+          <element id="library" level="module" name="mysql-connector-java-5.1.39-bin.jar" module-name="trabalho-dw" />
+          <element id="library" level="module" name="antlr-2.7.7.jar" module-name="trabalho-dw" />
+          <element id="library" level="module" name="dom4j-1.6.1.jar" module-name="trabalho-dw" />
+          <element id="library" level="module" name="hibernate-commons-annotations-4.0.4.Final.jar" module-name="trabalho-dw" />
+          <element id="library" level="module" name="hibernate-core-4.3.5.Final.jar" module-name="trabalho-dw" />
+          <element id="library" level="module" name="hibernate-entitymanager-4.3.5.Final.jar" module-name="trabalho-dw" />
+          <element id="library" level="module" name="hibernate-jpa-2.1-api-1.0.0.Final.jar" module-name="trabalho-dw" />
+          <element id="library" level="module" name="hibernate-jpamodelgen-4.3.5.Final.jar" module-name="trabalho-dw" />
+          <element id="library" level="module" name="jandex-1.1.0.Final.jar" module-name="trabalho-dw" />
+          <element id="library" level="module" name="javassist-3.18.1-GA.jar" module-name="trabalho-dw" />
+          <element id="library" level="module" name="jboss-logging-3.1.3.GA.jar" module-name="trabalho-dw" />
+          <element id="library" level="module" name="jboss-logging-annotations-1.2.0.Beta1.jar" module-name="trabalho-dw" />
+          <element id="library" level="module" name="jboss-transaction-api_1.2_spec-1.0.0.Final.jar" module-name="trabalho-dw" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="trabalho-dw/web/Web" />
+    </root>
+  </artifact>
+</component>
