@@ -12,6 +12,9 @@
         <br>
         <h5> O que você deseja fazer? </h5>
         <br>
+        <form action="carrinho-de-compras.jsp" method="post">
+            <button type="submit" class="btn waves-effect waves-teal orange">Ir para o carrinho</button></td>
+        </form>
         <form action="" method="post">
             <button type="submit" class="btn waves-effect waves-teal blue">Escolher Poltrona</button></td>
         </form>

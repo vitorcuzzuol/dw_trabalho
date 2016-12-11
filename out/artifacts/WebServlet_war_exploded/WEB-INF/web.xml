@@ -49,4 +49,13 @@
         <url-pattern>/adicionarVoo</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>removerVoo</servlet-name>
+        <servlet-class>br.com.uff.servlet.RemoverVoo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>removerVoo</servlet-name>
+        <url-pattern>/removerVoo</url-pattern>
+    </servlet-mapping>
+
 </web-app>
