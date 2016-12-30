@@ -58,4 +58,58 @@
         <url-pattern>/removerVoo</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>escolherPoltrona</servlet-name>
+        <servlet-class>br.com.uff.servlet.AdicionarPoltrona</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>escolherPoltrona</servlet-name>
+        <url-pattern>/escolherPoltrona</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>adicionarPassageiros</servlet-name>
+        <servlet-class>br.com.uff.servlet.AdicionarPassageiros</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>adicionarPassageiros</servlet-name>
+        <url-pattern>/adicionarPassageiros</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>validarPagamento</servlet-name>
+        <servlet-class>br.com.uff.servlet.ValidarPagamento</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>validarPagamento</servlet-name>
+        <url-pattern>/validarPagamento</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>alterarPoltrona</servlet-name>
+        <servlet-class>br.com.uff.servlet.AlterarPoltrona</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>alterarPoltrona</servlet-name>
+        <url-pattern>/alterarPoltrona</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>checkin</servlet-name>
+        <servlet-class>br.com.uff.servlet.Checkin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>checkin</servlet-name>
+        <url-pattern>/checkin</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>adicionarPoltronaAlterada</servlet-name>
+        <servlet-class>br.com.uff.servlet.AdicionarPoltronaAlterada</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>adicionarPoltronaAlterada</servlet-name>
+        <url-pattern>/adicionarPoltronaAlterada</url-pattern>
+    </servlet-mapping>
 </web-app>

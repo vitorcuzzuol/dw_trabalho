@@ -1,5 +1,6 @@
 package br.com.uff.servlet;
 
+import br.com.uff.model.Poltrona;
 import br.com.uff.model.Voo;
 import br.com.uff.service.Dao;
 
@@ -29,9 +30,32 @@ public class RemoverVoo extends HttpServlet {
                 voosSelecionados.remove(i);
             }
         }
+
+        //Capturando as poltronas escolhidas anteriormente pelo usuário.
+        List<Poltrona> poltronas = (List<Poltrona>) session.getAttribute("poltronasUsuario");
+
+
+        //Verificando se o usuário já escolheu poltronas. Caso tenha escolhido, vamos alterar a disponibilidade da poltrona para DISPONIVEL novamente.
+        if(!(null == session.getAttribute("poltronasUsuarioIda")) || !(null == session.getAttribute("poltronasUsuarioVolta"))){
+            if("IDA".equals(voo.getTipoVoo().getDescricao())){
+                List<Poltrona> poltronasIda = (List<Poltrona>) session.getAttribute("poltronasUsuarioIda");
+                dao.setarPoltronaDisponivel(poltronasIda,voo.getTipoVoo().getDescricao());
+                poltronas.remove(poltronasIda);
+                session.removeAttribute("poltronasUsuarioIda");
+            } else {
+                List<Poltrona> poltronasVolta = (List<Poltrona>) session.getAttribute("poltronasUsuarioVolta");
+                dao.setarPoltronaDisponivel(poltronasVolta,voo.getTipoVoo().getDescricao());
+                poltronas.remove(poltronasVolta);
+                session.removeAttribute("poltronasUsuarioVolta");
+            }
+        }
         voosSelecionados.remove(voo);
-        //session.removeAttribute("carrinho");
-        session.setAttribute("carrinho",voosSelecionados);
+        if(voosSelecionados.isEmpty()){
+            session.invalidate();
+        } else {
+            session.setAttribute("carrinho",voosSelecionados);
+        }
+
 
         RequestDispatcher dispatcher = request.getRequestDispatcher("carrinho-de-compras.jsp");
         dispatcher.forward(request, response);

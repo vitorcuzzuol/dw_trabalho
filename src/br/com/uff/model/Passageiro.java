@@ -18,22 +18,108 @@ public class Passageiro {
     private Integer id;
 
     @Nullable
-    private Integer cpf;
+    private String cpf;
     @Nullable
     private String nome;
     @Nullable
     private String endereco;
     @Nullable
-    private Integer telefone;
+    private String telefone;
+
+    @Nullable
+    private String nacionalidade;
 
     @Nullable
     @Temporal(TemporalType.DATE)
     private Date dataNasc;
 
+    @Nullable
+    private String deficiente;
+
     //Aqui vamos guardar todos os ingressos para voos dentro da lista passagensCompradas
     @Nullable
     @OneToOne
     private Passagem passagemComprada;
+
+    @Nullable
+    private String idReserva;
+
+    @Nullable
+    @ManyToMany
+    private List<Voo> voos = new ArrayList<>();
+
+    @Nullable
+    @OneToMany
+    private List<Poltrona> poltronasReservadas = new ArrayList<>();
+
+    @Nullable
+    @OneToOne
+    private Poltrona poltronaIda;
+
+    @Nullable
+    @OneToOne
+    private Poltrona poltronaVolta;
+
+    public List<Voo> setVoos(Voo voo){
+        this.voos.add(voo);
+        return voos;
+    }
+
+    public List<Voo> getVoos() {
+        return voos;
+    }
+
+    public void setVoos(List<Voo> voos) {
+        this.voos = voos;
+    }
+
+    public String getIdReserva() {
+        return idReserva;
+    }
+
+    public void setIdReserva(String idReserva) {
+        this.idReserva = idReserva;
+    }
+
+    public String getDeficiente() {
+        return deficiente;
+    }
+
+    public void setDeficiente(String deficiente) {
+        this.deficiente = deficiente;
+    }
+
+    public List<Poltrona> getPoltronasReservadas() {
+        return poltronasReservadas;
+    }
+
+    public void setPoltronasReservadas(List<Poltrona> poltronasReservadas) {
+        this.poltronasReservadas = poltronasReservadas;
+    }
+
+    public String getNacionalidade() {
+        return nacionalidade;
+    }
+
+    public void setNacionalidade(String nacionalidade) {
+        this.nacionalidade = nacionalidade;
+    }
+
+    public Poltrona getPoltronaIda() {
+        return poltronaIda;
+    }
+
+    public void setPoltronaIda(Poltrona poltronaIda) {
+        this.poltronaIda = poltronaIda;
+    }
+
+    public Poltrona getPoltronaVolta() {
+        return poltronaVolta;
+    }
+
+    public void setPoltronaVolta(Poltrona poltronaVolta) {
+        this.poltronaVolta = poltronaVolta;
+    }
 
     public Integer getId() {
         return id;
@@ -43,11 +129,11 @@ public class Passageiro {
         this.id = id;
     }
 
-    public Integer getCpf() {
+    public String getCpf() {
         return cpf;
     }
 
-    public void setCpf(Integer cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 
@@ -67,11 +153,11 @@ public class Passageiro {
         this.endereco = endereco;
     }
 
-    public Integer getTelefone() {
+    public String getTelefone() {
         return telefone;
     }
 
-    public void setTelefone(Integer telefone) {
+    public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
 

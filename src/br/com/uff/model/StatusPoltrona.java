@@ -4,5 +4,5 @@ package br.com.uff.model;
 
 public enum StatusPoltrona {
 
-    DISPONIVEL, OCUPADO;
+    DISPONIVEL, AGUARDANDO_COMPRA, OCUPADO;
 }

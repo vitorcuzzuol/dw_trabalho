@@ -23,14 +23,25 @@ public class Aviao {
 
     @Nullable
     @OneToOne
-    private Voo voo;
+    private Voo vooIda;
 
-    public Voo getVoo() {
-        return voo;
+    @OneToOne
+    private Voo vooVolta;
+
+    public Voo getVooIda() {
+        return vooIda;
     }
 
-    public void setVoo(Voo voo) {
-        this.voo = voo;
+    public void setVooIda(Voo vooIda) {
+        this.vooIda = vooIda;
+    }
+
+    public Voo getVooVolta() {
+        return vooVolta;
+    }
+
+    public void setVooVolta(Voo vooVolta) {
+        this.vooVolta = vooVolta;
     }
 
     public Integer getId() {

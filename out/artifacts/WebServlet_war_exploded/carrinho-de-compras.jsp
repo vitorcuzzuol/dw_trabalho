@@ -1,5 +1,3 @@
-<%@ page import="br.com.uff.model.Voo" %>
-<%@ page import="java.util.ArrayList" %>
 <!-- O IntelliJ importa automaticamente o caminho java.sun.com/jstl/fmt, mas o correto é : java.sun.com/jsp/jstl/fmt -->
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
@@ -12,10 +10,7 @@
 
 </head>
     <jsp:include page="imports-design.jsp"></jsp:include>
-    <!-- Zerado o contador de preço a cada atualização da página-->
-    <c:set var="precoTotalVoos" scope="session" value="${(sessionScope.precoTotalVoos - sessionScope.precoTotalVoos)}"> </c:set>
-
-
+    <jsp:useBean id="dao" class="br.com.uff.service.Dao" scope="session"/>
 
 </head>
 <body>
@@ -48,8 +43,6 @@
             </tr>
             </thead>
 
-            <!-- Aqui criamos um Bean (Instância) da classe DAO e no foreach definimos uma variável que vai receber o retorno de algum método da classe.
-            Nesse caso, "retornarTodosOsVoos", que é uma lista. -->
             <c:forEach var="vooCarrinho" items="${sessionScope.carrinho}">
                 <!-- Detalhe que não é importante, apenas para fins de layout da tabela. -->
                 <thead>
@@ -69,11 +62,12 @@
                 </tbody>
             </c:forEach>
         </table>
-        <p align="center" style="font-size: 20px; font-family: 'Arial Black'"> Preço total de Voos:  <td>R$ ${sessionScope.precoTotalVoos}</td></p>
-        </table>
+        <p align="center" style="font-size: 20px; font-family: 'Arial Black'"> Preço total de Voos, com taxas inclusas: <td> R$ ${dao.calcularPrecoVoos(sessionScope.carrinho)}</td> </p>
+        <p align="center" style="font-family: 'Arial'; font-size: 20px"> Número de passageiros informado: ${sessionScope.numeroAdultos}</p>
+
         <br>
         <div align="center">
-            <form action="escolhaPoltronas.jsp" method="post">
+            <form action="escolher-poltronas.jsp" method="post">
                 <button type="submit" class="btn waves-effect waves-teal blue">Escolher Poltronas</button></td>
             </form>
         </div>
@@ -84,14 +78,6 @@
             </div>
         </form>
     </c:if>
-
-
-
-
-    <!-- Mostrar preços avulsos dos voos-->
-    <!-- Mostrar somatório para valor parcial total -->
-    <!-- Mostrar link para escolha de poltrona-->
-
 
 </body>
 </html>

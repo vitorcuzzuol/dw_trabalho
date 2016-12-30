@@ -1,10 +1,8 @@
 package br.com.uff.model;
 
-import com.sun.istack.internal.NotNull;
 import com.sun.istack.internal.Nullable;
 
 import javax.persistence.*;
-import java.util.Collection;
 
 @Entity
 public class Poltrona {
@@ -15,14 +13,19 @@ public class Poltrona {
 
     /*  Como usamos o tipo ENUM, temos que usar a anotação Enumerated.
         Como queremos guardar esse valor como uma string no banco de dados, passamos o parâmetro EnumType.String. */
+    @Nullable
     @Enumerated(EnumType.STRING)
     private StatusPoltrona statusPoltronaIda;
 
+    @Nullable
     @Enumerated(EnumType.STRING)
     private StatusPoltrona statusPoltronaVolta;
 
     @ManyToOne
     private Aviao aviao;
+
+    @ManyToOne
+    private Voo voo;
 
     @OneToOne
     private Passagem passagemIda;
@@ -32,6 +35,16 @@ public class Poltrona {
 
     @ManyToOne
     private Classe classe;
+
+
+    public Voo getVoo() {
+        return voo;
+    }
+
+    public void setVoo(Voo voo) {
+        this.voo = voo;
+    }
+
 
     public Integer getIdPoltrona() {
         return idPoltrona;

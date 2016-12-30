@@ -17,6 +17,10 @@ public class Voo {
     private Aviao aviao;
 
     @Nullable
+    @Enumerated(EnumType.STRING)
+    private TipoVoo tipoVoo;
+
+    @Nullable
     @Temporal(TemporalType.DATE)
     private Date data;
 
@@ -36,12 +40,52 @@ public class Voo {
     private Double preco;
 
     @Nullable
+    @OneToMany
+    private List<Passageiro> passageiros;
+
+    @Nullable
+    @OneToMany (mappedBy = "voo")
+    private List<Poltrona> poltronas = new ArrayList<>();
+
+    @Nullable
     @OneToMany (mappedBy = "vooIda")
     private List<Passagem> passagensIda = new ArrayList<>();
 
     @Nullable
     @OneToMany (mappedBy = "vooVolta")
     private List<Passagem> passagensVolta = new ArrayList<>();
+
+    public List<Poltrona> getPoltronas() {
+        return poltronas;
+    }
+
+    public void setPoltrona(Poltrona poltrona) {
+        this.poltronas.add(poltrona);
+    }
+
+    public void setPoltrona(List<Poltrona> poltronas){
+        this.poltronas = poltronas;
+    }
+
+    public List<Passageiro> getPassageiros() {
+        return passageiros;
+    }
+
+    public void setPassageiros(List<Passageiro> passageiros) {
+        this.passageiros = passageiros;
+    }
+
+    public void setPoltronas(List<Poltrona> poltronas) {
+        this.poltronas = poltronas;
+    }
+
+    public TipoVoo getTipoVoo() {
+        return tipoVoo;
+    }
+
+    public void setTipoVoo(TipoVoo tipoVoo) {
+        this.tipoVoo = tipoVoo;
+    }
 
     public Aviao getAviao() {
         return aviao;

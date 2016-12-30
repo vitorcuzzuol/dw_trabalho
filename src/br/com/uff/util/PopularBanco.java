@@ -143,16 +143,16 @@ public class PopularBanco {
             Passageiro passageiro1 = new Passageiro();
             passageiro1.setNome("Joao da Silva");
             passageiro1.setEndereco("Rua Sao Jose, 456");
-            passageiro1.setCpf(1235465678);
-            passageiro1.setTelefone(27092435);
+//            passageiro1.setCpf(1235465678);
+//            passageiro1.setTelefone(27092435);
             passageiro1.setDataNasc(retornaDataFormatada("1994-05-10"));
             manager.persist(passageiro1);
 
             Passageiro passageiro2 = new Passageiro();
             passageiro2.setNome("Pedro Alfradique");
             passageiro2.setEndereco("Rua Doutor Sardinha, 432");
-            passageiro2.setCpf(1432854959);
-            passageiro2.setTelefone(262923885);
+//            passageiro2.setCpf(1432854959);
+//            passageiro2.setTelefone(262923885);
             passageiro2.setDataNasc(retornaDataFormatada("1995-03-06"));
             manager.persist(passageiro2);
 
@@ -160,16 +160,16 @@ public class PopularBanco {
             Passageiro passageiro3 = new Passageiro();
             passageiro3.setNome("Bruno Hilario");
             passageiro3.setEndereco("Rua Presidente Pedreira, 56");
-            passageiro3.setCpf(1928374759);
-            passageiro3.setTelefone(27098754);
+//            passageiro3.setCpf(1928374759);
+//            passageiro3.setTelefone(27098754);
             passageiro3.setDataNasc(retornaDataFormatada("1980-06-28"));
             manager.persist(passageiro3);
 
             Passageiro passageiro4 = new Passageiro();
             passageiro4.setNome("Caio Serra");
             passageiro4.setEndereco("Rua Alvares de Azevedo, 25");
-            passageiro4.setCpf(1749387485);
-            passageiro4.setTelefone(26092435);
+//            passageiro4.setCpf(1749387485);
+//            passageiro4.setTelefone(26092435);
             passageiro4.setDataNasc(retornaDataFormatada("1996-07-10"));
             manager.persist(passageiro4);
 
@@ -191,7 +191,7 @@ public class PopularBanco {
             voo1Ida.setLocalDestino("Maranhao");
             voo1Ida.setPreco(200.00);
             voo1Ida.setAviao(aviao1);
-            aviao1.setVoo(voo1Ida);
+            aviao1.setVooIda(voo1Ida);
             manager.merge(voo1Ida);
             manager.merge(aviao1);
 
@@ -205,7 +205,7 @@ public class PopularBanco {
             voo1Volta.setLocalDestino("Bahia");
             voo1Volta.setPreco(200.00);
             voo1Volta.setAviao(aviao2);
-            aviao2.setVoo(voo1Volta);
+            aviao2.setVooVolta(voo1Volta);
             manager.merge(voo1Volta);
             manager.merge(aviao2);
 

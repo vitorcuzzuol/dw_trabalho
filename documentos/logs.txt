@@ -14,3 +14,10 @@
 
 -
 
+
+Itens a aprimorar:
+
+1) Permitir que o usuário compre duas poltronas para um mesmo voo
+
+2) Cálculo do preço do voo com a adição da poltrona.
+

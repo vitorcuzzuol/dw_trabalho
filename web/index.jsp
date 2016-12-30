@@ -82,17 +82,6 @@
                             <label>Local de Destino</label>
                         </div>
                     </div>
-                    <!-- Escolha de classe do assento -->
-                    <%--<div class="row">--%>
-                        <%--<div class="input-field col s3 m3 l3" style="margin-left: 14%">--%>
-                                <%--<select name="classe">--%>
-                                    <%--<option value="1">Economica</option>--%>
-                                    <%--<option value="2">Executiva</option>--%>
-                                    <%--<option value="3">Primeira Classe</option>--%>
-                                <%--</select>--%>
-                            <%--<label>Classe Voo</label>--%>
-                        <%--</div>--%>
-                    <%--</div>--%>
                 </div>
                 <button type="submit" class="btn waves-effect waves-teal">Filtrar Voos</button></td>
             </form>
@@ -128,7 +117,6 @@
                         <td>${voo.localDestino}</td>
                         <td>${voo.preco}</td>
                         <th> <a href="/adicionarVoo?id=${voo.id}" name="vooId" class="btn-floating waves-effect waves-light blue"><i class="material-icons">add</i></a> </th>
-
                     </tr>
                 </tbody>
             </c:forEach>

@@ -1,0 +1,14 @@
+1) Questão sobre o motivo do Voo Ida, Voo Volta, Poltrona Ida, Poltrona Volta.
+
+Vamos explicar com um exemplo. Supondo que temos a poltrona 01 e um voo de ida e volta. Como fazer para usar a poltrona 01
+tanto no voo ida quanto no voo volta? A menos que a gente fizesse a suposição que a mesma poltrona seria utilizada pelo
+usuário, tanto no voo de ida quanto de volta, o usuário não poderia escolher poltronas diferentes. E teríamos que criar muito
+mais poltronas para ter um funcionamento interessante (60 poltronas para que dois voos diferentes tivessem 30 lugares cada um).
+Com esse esquema, podemos reaproveitar uma poltrona, tanto em voos de ida quanto de volta.
+
+Temos outro problema também, caso não tenhamos um voo de tipo ida ou volta, na hora de utilizar o filtro de voo, teríamos que
+comprar um voo de ida e volta, a menos que populássemos o banco com mais voos de um unico destino.
+
+Usuário pode querer escolher um voo de destino único. Nesse caso, não fará diferença se é de Ida ou Volta, olharemos simplesmente
+para a origem e o destino do usuário. Logo, TODOS OS VOOS DO SISTEMA SÃO APENAS DE IDA. Para comprar um voo de ida e volta,
+o usuário deve comprar o Voo de Ida para o Destino e o Voo de volta, para a origem.

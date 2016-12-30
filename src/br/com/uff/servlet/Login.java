@@ -36,10 +36,13 @@ public class Login extends HttpServlet{
             HttpSession session = request.getSession();
             session.setAttribute("usuarioLogado", usuarioEncontrado);
 
-
-            // Caso o usuário seja encontrado, nenhuma exceção é lançada. Vamos então iniciar a session e redirecionar para a tela do usuário.
-            RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
-            dispatcher.forward(request, response);
+            if (session.getAttribute("poltronasUsuario") != null){
+                RequestDispatcher dispatcher = request.getRequestDispatcher("pagamento.jsp");
+                dispatcher.forward(request, response);
+            } else{
+                RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
+                dispatcher.forward(request, response);
+            }
 
 
         } catch (NoResultException e){

@@ -19,15 +19,28 @@ public class AdicionaVoo extends HttpServlet {
         Integer idVoo = Integer.valueOf(request.getParameter("id"));
         Dao dao = new Dao();
         Voo voo = dao.buscarVooPeloId(idVoo);
+        Boolean vooJaInserido = false;
 
-        //Capuramos a lista atual de voos selecionados para compra e acrescentamos mais um voo na variável "carrinho" da session.
+        //Capuramos a lista atual de voos selecionados para compra e acrescentamos mais um voo na variï¿½vel "carrinho" da session.
         HttpSession session = request.getSession();
         List<Voo> voosSelecionados = (List<Voo>) session.getAttribute("carrinho");
-        voosSelecionados.add(voo);
-        session.setAttribute("carrinho",voosSelecionados);
+        for(Voo voo1: voosSelecionados){
+            if (voo1.getId() == voo.getId()) {
+                vooJaInserido = true;
+            }
+        }
+        if (!vooJaInserido){
+            voosSelecionados.add(voo);
+            session.setAttribute("carrinho",voosSelecionados);
+            RequestDispatcher dispatcher = request.getRequestDispatcher("voo-adicionado.jsp");
+            dispatcher.forward(request, response);
+        } else{
+            RequestDispatcher dispatcher = request.getRequestDispatcher("carrinho-de-compras.jsp");
+            dispatcher.forward(request, response);
+        }
 
 
-        RequestDispatcher dispatcher = request.getRequestDispatcher("voo-adicionado.jsp");
-        dispatcher.forward(request, response);
     }
+
 }
+

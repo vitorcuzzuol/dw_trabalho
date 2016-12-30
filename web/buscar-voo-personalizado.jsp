@@ -67,7 +67,7 @@
                         <td>${voo.localOrigem}</td>
                         <td>${voo.localDestino}</td>
                         <td>${voo.preco}</td>
-                        <th> <a class="btn-floating waves-effect waves-light blue"><i class="material-icons">add</i></a> </th>
+                        <th> <a href="/adicionarVoo?id=${voo.id}" name="vooId" class="btn-floating waves-effect waves-light blue"><i class="material-icons">add</i></a> </th>
                     </tr>
                     </tbody>
                 </c:forEach>
