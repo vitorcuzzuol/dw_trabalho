@@ -2,348 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a8cd2a5-1910-47ad-8127-48c91ef1f59e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/model/Aeroporto.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/model/Aviao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/model/Classe.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/model/Passageiro.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/model/Passagem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/model/Poltrona.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/model/StatusPoltrona.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/model/TipoClasse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/model/TipoVoo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/model/Venda.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/model/Voo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/servlet/AdicionaVoo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/servlet/AdicionarPassageiros.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/servlet/AdicionarPoltrona.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/servlet/AdicionarPoltronaAlterada.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/servlet/AdicionarPoltronaBackup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/servlet/AlterarPoltrona.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/servlet/BuscaVoos.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/servlet/Checkin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/servlet/Home.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/servlet/Login.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/servlet/Logout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/servlet/RemoverVoo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/servlet/ValidarPagamento.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/util/PopularBancoBackup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/br/com/uff/util/PopularBancoCaio.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database-old/ER_Voos.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database-old/aeroporto_db.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database-old/aviao.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database-old/classe.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database-old/database_schema.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database-old/estrutura.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database-old/poltrona.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database-old/reserva.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database-old/usuario.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database-old/voo.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentos/ModelogER.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentos/PAgina catálogo.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentos/Questionamentos e Explicações" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentos/Trabalho de DW - Sistema de emissão de bilhetes aéreos (1).pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentos/logs.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentos/planejamento.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/Aeroporto.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/Aviao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/Classe.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/Passageiro.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/Passagem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/Poltrona.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/StatusPoltrona.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/TipoClasse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/TipoVoo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/Venda.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/Voo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/servlet/AdicionaVoo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/servlet/AdicionarPassageiros.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/servlet/AdicionarPoltrona.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/servlet/AdicionarPoltronaAlterada.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/servlet/AdicionarPoltronaBackup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/servlet/AlterarPoltrona.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/servlet/BuscaVoos.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/servlet/Checkin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/servlet/Home.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/servlet/Login.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/servlet/Logout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/servlet/RemoverVoo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/servlet/ValidarPagamento.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/util/PopularBancoBackup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/util/PopularBancoCaio.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/alterar-poltrona.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/css/estilo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/img/airplane.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/img/cart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/bootstrap-3.3.7-dist/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/bootstrap-3.3.7-dist/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/bootstrap-3.3.7-dist/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/datepicker/css/datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/datepicker/js/bootstrap-datepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/datepicker/less/datepicker.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/index.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/lib/formatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/lib/formatter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/lib/jquery.formatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/lib/jquery.formatter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/src/formatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/src/inpt-sel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/src/pattern.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/src/tmpls/intro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/src/tmpls/jquery.intro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/src/tmpls/jquery.outro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/src/tmpls/outro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/src/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/test/fake-user/events.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/test/fake-user/keys.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/test/fake-user/user.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/test/formatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/test/pattern.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jQuery-Formatter/test/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/AUTHORS.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/external/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/images/ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/images/ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/images/ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/jquery-ui.structure.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/jquery-ui.structure.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/jquery-ui.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/jquery-ui.theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/jquery-ui-1.12.1.custom/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/css/materialize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/css/materialize.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/fonts/roboto/Roboto-Bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/fonts/roboto/Roboto-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/fonts/roboto/Roboto-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/fonts/roboto/Roboto-Bold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/fonts/roboto/Roboto-Light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/fonts/roboto/Roboto-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/fonts/roboto/Roboto-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/fonts/roboto/Roboto-Light.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/fonts/roboto/Roboto-Medium.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/fonts/roboto/Roboto-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/fonts/roboto/Roboto-Medium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/fonts/roboto/Roboto-Medium.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/fonts/roboto/Roboto-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/fonts/roboto/Roboto-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/fonts/roboto/Roboto-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/fonts/roboto/Roboto-Regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/fonts/roboto/Roboto-Thin.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/fonts/roboto/Roboto-Thin.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/fonts/roboto/Roboto-Thin.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/fonts/roboto/Roboto-Thin.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/js/materialize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/assets/plugins/materialize/js/materialize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/bilhete-aereo.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/buscar-voo-personalizado.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/carrinho-de-compras.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/checkin.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/escolher-poltronas(Backup).jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/escolher-poltronas.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/header.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/imports-design.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/pagamento-sucesso.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/pagamento.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/telaUsuario.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/voo-adicionado.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/model/Aeroporto.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/model/Aviao.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/model/Classe.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/model/Passageiro.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/model/Passagem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/model/Poltrona.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/model/StatusPoltrona.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/model/TipoClasse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/model/TipoVoo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/model/Usuario.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/model/Venda.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/model/Voo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/servlet/AdicionaVoo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/servlet/AdicionarPassageiros.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/servlet/AdicionarPoltrona.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/servlet/AdicionarPoltronaAlterada.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/servlet/AdicionarPoltronaBackup.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/servlet/AlterarPoltrona.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/servlet/BuscaVoos.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/servlet/Checkin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/servlet/RemoverVoo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/servlet/ValidarPagamento.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/util/PopularBanco.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/util/PopularBancoBackup.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/uff/util/PopularBancoCaio.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/trabalho-dw.userlibraries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/alterar-poltrona.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/css/estilo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/img/airplane.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/img/cart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap-3.3.7-dist/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap-3.3.7-dist/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/bootstrap-3.3.7-dist/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/datepicker/css/datepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/datepicker/js/bootstrap-datepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/datepicker/less/datepicker.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/index.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/lib/formatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/lib/formatter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/lib/jquery.formatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/lib/jquery.formatter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/src/formatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/src/inpt-sel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/src/pattern.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/src/tmpls/intro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/src/tmpls/jquery.intro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/src/tmpls/jquery.outro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/src/tmpls/outro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/src/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/test/fake-user/events.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/test/fake-user/keys.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/test/fake-user/user.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/test/formatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/test/pattern.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jQuery-Formatter/test/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/AUTHORS.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/external/jquery/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/images/ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/images/ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/images/ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/jquery-ui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/jquery-ui.structure.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/jquery-ui.structure.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/jquery-ui.theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/jquery-ui.theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/jquery-ui-1.12.1.custom/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/css/materialize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/css/materialize.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/fonts/roboto/Roboto-Bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/fonts/roboto/Roboto-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/fonts/roboto/Roboto-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/fonts/roboto/Roboto-Bold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/fonts/roboto/Roboto-Light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/fonts/roboto/Roboto-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/fonts/roboto/Roboto-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/fonts/roboto/Roboto-Light.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/fonts/roboto/Roboto-Medium.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/fonts/roboto/Roboto-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/fonts/roboto/Roboto-Medium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/fonts/roboto/Roboto-Medium.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/fonts/roboto/Roboto-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/fonts/roboto/Roboto-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/fonts/roboto/Roboto-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/fonts/roboto/Roboto-Regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/fonts/roboto/Roboto-Thin.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/fonts/roboto/Roboto-Thin.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/fonts/roboto/Roboto-Thin.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/fonts/roboto/Roboto-Thin.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/js/materialize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/assets/plugins/materialize/js/materialize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bilhete-aereo.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/buscar-voo-personalizado.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/carrinho-de-compras.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/checkin.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/escolher-poltronas(Backup).jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/escolher-poltronas.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/header.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/imports-design.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/pagamento-sucesso.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/pagamento.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/telaUsuario.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/voo-adicionado.jsp" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/uff/servlet/Home.java" afterPath="$PROJECT_DIR$/src/br/com/uff/controller/Home.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/uff/servlet/Login.java" afterPath="$PROJECT_DIR$/src/br/com/uff/controller/Login.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/uff/servlet/Logout.java" afterPath="$PROJECT_DIR$/src/br/com/uff/controller/Logout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/com/uff/model/Usuario.class" afterPath="$PROJECT_DIR$/bin/br/com/uff/model/Usuario.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/com/uff/service/Dao.class" afterPath="$PROJECT_DIR$/bin/br/com/uff/service/Dao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/com/uff/util/JPAUtil.class" afterPath="$PROJECT_DIR$/bin/br/com/uff/util/JPAUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/br/com/uff/util/PopularBanco.class" afterPath="$PROJECT_DIR$/bin/br/com/uff/util/PopularBanco.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/Usuario.class" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/Usuario.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/service/Dao.class" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/service/Dao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/util/JPAUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/util/JPAUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/util/PopularBanco.class" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/util/PopularBanco.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib.rar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/controller/Home.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/controller/Login.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/controller/Logout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/controller/Perfil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/Amizade.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/AvaliacaoAmigos.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/AvaliacaoHospedeiroxhospede.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/AvaliacaoHospedexhospedeiro.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/AvaliacaoOrganizadorxparticipante.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/AvaliacaoParticipantexorganizador.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/Endereco.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/EventoEsportivo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/Fotos.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/br/com/uff/model/Hospedagem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/fotos/1perfil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/fotos/2perfil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/fotos/3perfil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/fotos/4perfil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/fotos/5perfil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/fotos/time4.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fotos/1perfil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fotos/2perfil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fotos/3perfil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fotos/4perfil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fotos/5perfil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/fotos/time4.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_classpath.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_project.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/perfilAmigo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/perfilLogado.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/uff/controller/Perfil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/uff/model/Amizade.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/uff/model/AvaliacaoAmigos.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/uff/model/AvaliacaoHospedeiroxhospede.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/uff/model/AvaliacaoHospedexhospedeiro.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/uff/model/AvaliacaoOrganizadorxparticipante.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/uff/model/AvaliacaoParticipantexorganizador.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/uff/model/Endereco.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/uff/model/EventoEsportivo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/uff/model/Fotos.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/uff/model/Hospedagem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trabalho-dw.userlibraries.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/perfilAmigo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/perfilLogado.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/bin/META-INF/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/persistence.xml" afterPath="$PROJECT_DIR$/bin/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/META-INF/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/persistence.xml" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/classes/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/WebServlet_war_exploded/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/uff/service/Dao.java" afterPath="$PROJECT_DIR$/src/br/com/uff/service/Dao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/uff/util/JPAUtil.java" afterPath="$PROJECT_DIR$/src/br/com/uff/util/JPAUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trabalho-dw.iml" afterPath="$PROJECT_DIR$/trabalho-dw.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login.jsp" afterPath="$PROJECT_DIR$/web/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/uff/model/Usuario.java" afterPath="$PROJECT_DIR$/src/br/com/uff/model/Usuario.java" />
     </list>
     <ignored path="financas.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -686,6 +393,9 @@
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <push-targets>
+      <push-target-info target-remote="TrabalhoDW" target-branch="master" repo="$PROJECT_DIR$" source="master" />
+    </push-targets>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -1602,7 +1312,7 @@
       <workItem from="1495599055947" duration="2650000" />
       <workItem from="1495613542032" duration="2105000" />
       <workItem from="1495748546325" duration="1463000" />
-      <workItem from="1496014709550" duration="477000" />
+      <workItem from="1496014709550" duration="893000" />
     </task>
     <task id="LOCAL-00001" summary="Meu Carrinho OK">
       <created>1481472822955</created>
@@ -1611,11 +1321,18 @@
       <option name="project" value="LOCAL" />
       <updated>1481472822955</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Meu Carrinho OK">
+      <created>1496015269774</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1496015269774</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="509214000" />
+    <option name="totallyTimeSpent" value="509630000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1818,6 +1535,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1840,6 +1558,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306">
           <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1847,6 +1566,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1951,6 +1673,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#701#702#0" expanded="false" />
+            <element signature="e#726#727#0" expanded="false" />
+            <element signature="e#763#764#0" expanded="false" />
+            <element signature="e#791#792#0" expanded="false" />
+            <element signature="e#823#824#0" expanded="false" />
+            <element signature="e#851#852#0" expanded="false" />
+            <element signature="e#893#894#0" expanded="false" />
+            <element signature="e#927#928#0" expanded="false" />
+            <element signature="e#959#960#0" expanded="false" />
+            <element signature="e#987#988#0" expanded="false" />
+            <element signature="e#1029#1030#0" expanded="false" />
+            <element signature="e#1063#1064#0" expanded="false" />
+            <element signature="e#1094#1095#0" expanded="false" />
+            <element signature="e#1121#1122#0" expanded="false" />
+            <element signature="e#1161#1162#0" expanded="false" />
+            <element signature="e#1193#1194#0" expanded="false" />
+            <element signature="e#1230#1231#0" expanded="false" />
+            <element signature="e#1261#1262#0" expanded="false" />
+            <element signature="e#1311#1312#0" expanded="false" />
+            <element signature="e#1351#1352#0" expanded="false" />
+            <element signature="e#1384#1385#0" expanded="false" />
+            <element signature="e#1413#1414#0" expanded="false" />
+            <element signature="e#1457#1458#0" expanded="false" />
+            <element signature="e#1493#1494#0" expanded="false" />
+            <element signature="e#1531#1532#0" expanded="false" />
+            <element signature="e#1565#1566#0" expanded="false" />
+            <element signature="e#1619#1620#0" expanded="false" />
+            <element signature="e#1665#1666#0" expanded="false" />
+            <element signature="e#1705#1706#0" expanded="false" />
+            <element signature="e#1743#1744#0" expanded="false" />
+            <element signature="e#1803#1804#0" expanded="false" />
+            <element signature="e#1857#1858#0" expanded="false" />
+            <element signature="e#1895#1896#0" expanded="false" />
+            <element signature="e#1929#1930#0" expanded="false" />
+            <element signature="e#1983#1984#0" expanded="false" />
+            <element signature="e#2029#2030#0" expanded="false" />
+            <element signature="e#2067#2068#0" expanded="false" />
+            <element signature="e#2101#2102#0" expanded="false" />
+            <element signature="e#2155#2156#0" expanded="false" />
+            <element signature="e#2201#2202#0" expanded="false" />
+            <element signature="e#2238#2239#0" expanded="false" />
+            <element signature="e#2271#2272#0" expanded="false" />
+            <element signature="e#2324#2325#0" expanded="false" />
+            <element signature="e#2368#2369#0" expanded="false" />
+            <element signature="e#2408#2409#0" expanded="false" />
+            <element signature="e#2443#2444#0" expanded="false" />
+            <element signature="e#2500#2501#0" expanded="false" />
+            <element signature="e#2548#2549#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
