@@ -3,10 +3,7 @@ package br.com.uff.model;
 import com.sun.istack.internal.Nullable;
 
 import javax.persistence.*;
-import java.util.Calendar;
 import java.util.Date;
-
-import static com.sun.xml.internal.ws.api.model.wsdl.WSDLBoundOperation.ANONYMOUS.optional;
 
 @Entity
 public class Usuario {
@@ -15,26 +12,33 @@ public class Usuario {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Integer id;
 
-    @Nullable
-    private Integer senha;
-
-    @Nullable
     private String email;
 
-    @Nullable
+    private String senha;
+
     private String nome;
 
-    /*
-       Usuário está sendo usado apenas para fins de login e acesso ao sistema. Cada usuário terá uma lista de passageiros.
-     */
+    @ManyToOne
+    private Endereco endereco;
 
-    public String getNome() {
-        return nome;
-    }
+    private String numero;
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
+    @Nullable
+    private String complemento;
+
+    @Nullable
+    @Temporal(TemporalType.DATE)
+    private Date data_nascimento;
+
+    @Nullable
+    private String foto_perfil;
+
+
+    private String esporte_fav;
+
+    private boolean hospedeiro;
+
+    private Integer qnt_hospedes;
 
     public Integer getId() {
         return id;
@@ -42,14 +46,6 @@ public class Usuario {
 
     public void setId(Integer id) {
         this.id = id;
-    }
-
-    public Integer getSenha() {
-        return senha;
-    }
-
-    public void setSenha(Integer senha) {
-        this.senha = senha;
     }
 
     public String getEmail() {
@@ -60,5 +56,83 @@ public class Usuario {
         this.email = email;
     }
 
+    public String getSenha() {
+        return senha;
+    }
 
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
+    }
+
+    public String getNumero() {
+        return numero;
+    }
+
+    public void setNumero(String numero) {
+        this.numero = numero;
+    }
+
+    public String getComplemento() {
+        return complemento;
+    }
+
+    public void setComplemento(String complemento) {
+        this.complemento = complemento;
+    }
+
+    public Date getData_nascimento() {
+        return data_nascimento;
+    }
+
+    public void setData_nascimento(Date data_nascimento) {
+        this.data_nascimento = data_nascimento;
+    }
+
+    public String getFoto_perfil() {
+        return foto_perfil;
+    }
+
+    public void setFoto_perfil(String foto_perfil) {
+        this.foto_perfil = foto_perfil;
+    }
+
+    public String getEsporte_fav() {
+        return esporte_fav;
+    }
+
+    public void setEsporte_fav(String esporte_fav) {
+        this.esporte_fav = esporte_fav;
+    }
+
+    public boolean isHospedeiro() {
+        return hospedeiro;
+    }
+
+    public void setHospedeiro(boolean hospedeiro) {
+        this.hospedeiro = hospedeiro;
+    }
+
+    public Integer getQnt_hospedes() {
+        return qnt_hospedes;
+    }
+
+    public void setQnt_hospedes(Integer qnt_hospedes) {
+        this.qnt_hospedes = qnt_hospedes;
+    }
 }

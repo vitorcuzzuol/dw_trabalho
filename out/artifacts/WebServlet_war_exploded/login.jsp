@@ -40,7 +40,6 @@
 <div class="section"></div>
 <main>
     <center>
-        <img class="responsive-img" style="width: 250px;" src="/assets/img/airplane.jpg" />
         <div class="section"></div>
         <h5 class="indigo-text">Faça login no sistema</h5>
         <div class="section"></div>

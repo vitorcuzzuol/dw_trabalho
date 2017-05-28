@@ -9,7 +9,9 @@
       <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <resolve-scope>mydb:|sistema_aeroporto_dw:*</resolve-scope>
+      <introspection-schemas>*:sistema_aeroporto_dw</introspection-schemas>
+      <resolve-scope>*:mydb,sistema_aeroporto_dw</resolve-scope>
+      <unqualified-resolve-schemas>*:mydb,sistema_aeroporto_dw</unqualified-resolve-schemas>
     </data-source>
   </component>
 </project>
