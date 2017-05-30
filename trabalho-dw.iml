@@ -25,9 +25,7 @@
         <setting name="provider-name" value="" />
         <datasource-mapping>
           <factory-entry name="Entities" />
-          <factory-entry name="alura_jpa2_hibernate" />
           <factory-entry name="dw_trabalho" />
-          <factory-entry name="sistema_aeroporto_dw" value="abd6ab69-5bc1-401e-950f-54afe2e4e6bf" />
         </datasource-mapping>
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/META-INF/persistence.xml" />
       </configuration>
