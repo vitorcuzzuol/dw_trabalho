@@ -5,7 +5,7 @@ import br.com.uff.util.JPAUtil;
 
 import javax.persistence.EntityManager;
 import java.util.List;
-
+//dao
 public class Dao {
 
     private EntityManager manager = new JPAUtil().getEntityManager();
